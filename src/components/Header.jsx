@@ -16,10 +16,10 @@ function Header() {
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="me-0">
-          <Nav.Link eventKey="0" as={Link} className="nav-item" href="/SweetMoves/" to="/">Home</Nav.Link>
-          <Nav.Link eventKey="1" as={Link} className="nav-item" href="/SweetMoves/clients" to="/clients">Customers</Nav.Link>
-          <Nav.Link eventKey="2" as={Link} className="nav-item" href="/SweetMoves/about" to="/about">About</Nav.Link>
-          <Nav.Link eventKey="3" as={Link} className="nav-item" href="/SweetMoves/contact" to="/contact">Contact</Nav.Link>
+          <Nav.Link eventKey="0" as={Link} className="nav-item" href="/SweetMoves/" to="/SweetMoves/">Home</Nav.Link>
+          <Nav.Link eventKey="1" as={Link} className="nav-item" href="/SweetMoves/clients" to="/SweetMoves/clients">Customers</Nav.Link>
+          <Nav.Link eventKey="2" as={Link} className="nav-item" href="/SweetMoves/about" to="/SweetMoves/about">About</Nav.Link>
+          <Nav.Link eventKey="3" as={Link} className="nav-item" href="/SweetMoves/contact" to="/SweetMoves/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
 
