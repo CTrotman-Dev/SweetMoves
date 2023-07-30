@@ -6,7 +6,7 @@ const CarouselComponent = () => {
     return (
         <Carousel dynamicHeight={false} autoPlay={true} infiniteLoop={true} interval={5000}>
             <div className="img-carousel">
-                <img src="images/sm-logo.jpg" />
+                <img src="images/sm-logo-small.jpg" />
                 <p className="legend">Legend 1</p>
             </div>
             <div className="img-carousel">
