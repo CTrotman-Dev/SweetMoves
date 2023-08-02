@@ -20,12 +20,12 @@ const About = () => {
                 <p>
                 We're confident that we can provide you with the best possible moving experience. So please contact us today to schedule a free consultation.
                 </p>
-                <p>
+                {/* <p>
                 SweetMoves was founded in 2001 by [owner's name] and his wife. They started the company because they wanted to help people move their belongings with ease and peace of mind.
                 </p>
                 <p>
                 Over the past 20 years, SweetMoves has grown to become one of the leading home removals companies in the area. We have a team of experienced and professional movers who are dedicated to providing our customers with the best possible service.
-                </p>
+                </p> */}
                 <h3>Our Values</h3>
 <p>
 At SweetMoves, we believe in the following values:
@@ -76,7 +76,7 @@ At SweetMoves, we believe in the following values:
 </ul>
                 <h3>
                     <Link className="btn btn-lg btn-about" to={"/contact"}>
-                    To learn more about our services or to schedule a free consultation, please contact us today.
+                    CLICK HERE, To learn more about our services or to schedule a free consultation, please contact us today.
                     </Link>
 
                 </h3>

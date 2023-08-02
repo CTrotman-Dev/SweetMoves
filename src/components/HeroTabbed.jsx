@@ -68,7 +68,7 @@ const HeroTabbed = (props) => {
                             {/* <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
                                 Click here
                             </a> */}
-                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
+                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/contact"} >
                                 Click here
                             </Link>
                         </div>
@@ -83,7 +83,7 @@ const HeroTabbed = (props) => {
                             {/* <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
                                 Click here
                             </a> */}
-                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
+                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/about"} >
                                 Click here
                             </Link>
                         </div>
@@ -97,7 +97,7 @@ const HeroTabbed = (props) => {
                             <p>
                                 Looking at all of our reviews.
                             </p>
-                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
+                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/clients"} >
                                 Click here
                             </Link>
                         </div>
