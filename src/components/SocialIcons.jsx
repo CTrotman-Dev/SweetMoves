@@ -14,7 +14,7 @@ const SocialIcons = () => {
             <a href="https://www.facebook.com/T.SRemovals0/">
                 <FontAwesomeIcon className="social-icon" icon={faFacebook} />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=+447701360672">
+            <a href="https://wa.me/+447701360672">
                 <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
             </a>
 
