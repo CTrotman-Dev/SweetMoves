@@ -38,7 +38,7 @@ const Contact = () => {
 
                         <tr>
                             <td>
-                            <a href="https://api.whatsapp.com/send?phone=+447701360672">
+                            <a href="https://wa.me/+447701360672">
                                 <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
                                 </a>
                             </td>
