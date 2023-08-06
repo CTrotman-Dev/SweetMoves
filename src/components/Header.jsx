@@ -10,7 +10,7 @@ import Logo from "./Logo";
 function Header() {
   return (
     <Navbar collapseOnSelect className="navbar" variant="dark" expand="lg" sticky="top">
-      <Navbar.Brand href="/SweetMoves/" to="/SweetMoves/">
+      <Navbar.Brand href="/SweetMoves/" to="/SweetMoves/" className="logo-link">
         <Logo />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />

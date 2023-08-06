@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import FBPost from "./FBPost"
 
 const HeroTabbed = (props) => {
-    const [img1, setImg1] = useState(false);
-    const [img2, setImg2] = useState(true);
+    const [img1, setImg1] = useState(true);
+    const [img2, setImg2] = useState(false);
     const [img3, setImg3] = useState(false);
 
     function showImage(img) {
@@ -36,19 +36,19 @@ const HeroTabbed = (props) => {
         <div className="hero-tabbed-container">
             <div className="row">
                 <div className="hero-tab-menu col-md-4">
-                    <div onClick={() => showImage(2)} className={img2 ? "tab-text active-tab" : "tab-text"}>
-                        <h3>
-                            About 
-                        </h3>
-
-                    </div>
-                    <div onClick={() => showImage(1)} className={img1 ? "tab-text active-tab" : "tab-text"}>
+                   
+                <div onClick={() => showImage(1)} className={img1 ? "tab-text active-tab" : "tab-text"}>
                         <h3>
                             Services
                         </h3>
 
                     </div>
+                   <div onClick={() => showImage(2)} className={img2 ? "tab-text active-tab" : "tab-text"}>
+                        <h3>
+                            About 
+                        </h3>
 
+                    </div>
                     <div onClick={() => showImage(3)} className={img3 ? "tab-text active-tab" : "tab-text"}>
                         <h3>
                             Reviews
@@ -61,7 +61,7 @@ const HeroTabbed = (props) => {
                     {img1 &&
                         <div className="detail-tab">
                             <h1>Removals</h1>
-                            <img src="images/van2.jpg" alt="hero image" />
+                            <img src="images/img1.jpg" alt="hero image" />
                             <p>
                                 Do you need a hand moving home? Get in contact today.
                             </p>
@@ -76,7 +76,7 @@ const HeroTabbed = (props) => {
                     {img2 &&
                         <div className="detail-tab">
                             <h1>SweetMoves</h1>
-                            <img src="images/van1.jpg" alt="hero image" />
+                            <img src="images/img2.jpg" alt="hero image" />
                             <p>
                                 We are a family run removals company. Contact us today.
                             </p>
