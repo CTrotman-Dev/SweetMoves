@@ -2,7 +2,7 @@
   "name": "sweet-moves",
   "version": "0.1.0",
   "main": "src/index.js",
-  "homepage": "https://ctrotman-dev.github.io/SweetMoves/",
+  "homepage": "https://SweetMoves.info/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
