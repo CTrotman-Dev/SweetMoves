@@ -6,7 +6,9 @@
   --dark-font-hover: #1D5697;
   --off-white: rgba(255, 255, 255, 0.8);
 
-  --lightest: #fff4dc;
+
+  --lightest: #f6f3eb;
+  --lightest2:#fff4dc;
   --light: #f3edbb;
   --dark: #044233;
   --darkest: #062720;
@@ -257,7 +259,7 @@ nav {
 }
 
 
-/* old hero  */
+/* old hero  */ 
 
 .hero-container-full {
   height: 200vw;
@@ -269,16 +271,37 @@ nav {
   margin-top: -75px;
 }
 
-.hero-container {
-  width: 100vw;
-  height: 325px;
-  background-color: var(--darkest);
+.hero-container{
+background-color: rgba(255,255,255,0.5);
+border-radius: 25px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
-.hero-container img {
-  height: 500px;
+.hero-img {
+  /* height: 500px; */
   max-width: 100%;
-  margin-top: -75px;
+  overflow: hidden;
+  border-radius: 10px;
+  /* margin-top: -75px; */
+}
+
+.hero-text{
+  color:var(--darkest);
+  /* font-size: 50px; */
+}
+.hero-text-container{
+  
+  padding-top:25px;
+}
+
+.why-us-container{
+  padding:25px 50px;
+}
+.why-us-section{
+  background-color: rgba(255,255,255,0.5);
+border-radius: 25px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  padding:15px 15px;
 }
 
 .img-carousel{
