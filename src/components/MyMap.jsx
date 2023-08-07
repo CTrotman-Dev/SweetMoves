@@ -28,8 +28,8 @@ const MyMap = () => {
             <FeatureGroup pathOptions={redOptions}>
                 <Popup>We deliver in this area</Popup>
                 {/* <Circle center={[51.515, -3.11]} radius={500} /> */}
-                <Rectangle bounds={rectangle1} />
-                <Rectangle bounds={rectangle2} />
+                {/* <Rectangle bounds={rectangle1} />
+                <Rectangle bounds={rectangle2} /> */}
             </FeatureGroup>
         </MapContainer>
 

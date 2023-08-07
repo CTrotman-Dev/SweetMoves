@@ -19,10 +19,14 @@ class App extends Component {
           <Header />
           <div className="mainContent">
             <Routes>
-              <Route exact path="/SweetMoves" element={<Home />} />
+              {/* <Route exact path="/SweetMoves" element={<Home />} />
               <Route path="/SweetMoves/about" element={<About />} />
               <Route path="/SweetMoves/contact" element={<Contact />} />
-              <Route path="/SweetMoves/clients" element={<Clients />} />
+              <Route path="/SweetMoves/clients" element={<Clients />} /> */}
+              <Route exact path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/clients" element={<Clients />} />
               
             </Routes>
           </div>

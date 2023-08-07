@@ -65,10 +65,10 @@ const HeroTabbed = (props) => {
                             <p>
                                 Do you need a hand moving home? Get in contact today.
                             </p>
-                            {/* <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
+                            {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/contact"} >
                                 Click here
-                            </a> */}
-                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/contact"} >
+                            </Link> */}
+                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
                                 Click here
                             </Link>
                         </div>
@@ -80,10 +80,10 @@ const HeroTabbed = (props) => {
                             <p>
                                 We are a family run removals company. Contact us today.
                             </p>
-                            {/* <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
+                            {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/about"} >
                                 Click here
-                            </a> */}
-                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/about"} >
+                            </Link> */}
+                            <Link className="btn btn-lg btn-cta" to={"/about"} >
                                 Click here
                             </Link>
                         </div>
@@ -91,13 +91,15 @@ const HeroTabbed = (props) => {
                     {img3 &&
                         <div className="detail-tab">
                             <h1>Customer feedback</h1>
-                            {/* <img src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637__480.jpg" alt="hero image" /> */}
                             <FBPost height="200px" width="500px" url="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsue.johns.7374%2Fposts%2Fpfbid01MqMa7eRA5TLG85XfCYrKuPQemz89Wx3wuVDFrMf5EeDejDcQqRAtUMVC5wLnnXYl&show_text=true&width=500" />
         <FBPost height="200px" width="500px" url="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgeniewkcss%2Fposts%2Fpfbid0qpuLQ2AREGS8iCrB9qxrZTjFTBoS4WKJqrv9CMHfHaVRDq7u9c5fMgU2WQRRZZral&show_text=true&width=500" />
                             <p>
                                 Looking at all of our reviews.
                             </p>
-                            <Link className="btn btn-lg btn-cta" to={"/SweetMoves/clients"} >
+                            {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/clients"} >
+                                Click here
+                            </Link> */}
+                            <Link className="btn btn-lg btn-cta" to={"/clients"} >
                                 Click here
                             </Link>
                         </div>
