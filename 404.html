@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../src/index.js" type="text/jsx"></script>
+    <script type="text/javascript">
+      // $(document).ready(function () {
+      // Get the current URL.
+      const currentUrl = window.location.href;
+      var urlObj = new URL(currentUrl);
+      // // Create a new URL with the hash symbol inserted after the domain.
+      // //const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
+      // console.log("Path:" + urlObj.pathname);
+      // // Redirect the user to the new URL.
+      // console.log("Hash:" + urlObj.hash + " - " + urlObj.hash.length);
+
+      console.log("new url" + window.location.pathname);
+      window.location.assign("/#" + window.location.pathname);
+      if (urlObj.hash.length <= 0) {
+      }
+      // else {
+      //   console.log("going home");
+      //   window.location.href = "craigtrotman.com";
+      // }
+
+      // });
+    </script>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <h1>404 Not Found</h1>
+    <p>The page you are looking for could not be found.</p>
+    <p>Please check the URL you entered and try again.</p>
+    <p>
+      If you are still having trouble, please contact the site administrator.
+    </p>
+  </body>
+</html>
