@@ -45,6 +45,10 @@ h4 {
   margin: 0;
 }
 
+.invis{
+  visibility: hidden;
+}
+
 .mainContent {
   /* margin: 0 25px; */
   text-align: center;
@@ -279,6 +283,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 
 .hero-img {
   /* height: 500px; */
+  max-height: 100vh;
   max-width: 100%;
   overflow: hidden;
   border-radius: 10px;
@@ -295,19 +300,28 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .why-us-container{
-  padding:25px 50px;
+  padding:25px 25px;
+  color:var(--dark);
+  margin:15px auto;
+  text-align: center;
 }
 .why-us-section{
   background-color: rgba(255,255,255,0.5);
 border-radius: 25px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  padding:15px 15px;
+  padding:15px 10px;
+  /* width:23%; */
+  /* margin:0 15px; */
+}
+
+.txt-lg{
+  font-size: 40px;
 }
 
 .img-carousel{
   /* max-height: 50vh; */
   width: 100%;
-  max-height:500px;
+  max-height:80vh;
   vertical-align: middle;
   align-items: center;
 }
@@ -476,7 +490,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 .about-content,
 .contact-page {
   background-color: rgba(255,255,255, 0.7);
-  text-align: left;
+  text-align: center;
   margin: 10px auto;
   padding:10px;
   width:fit-content;
