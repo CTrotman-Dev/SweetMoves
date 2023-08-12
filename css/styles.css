@@ -115,6 +115,7 @@ nav {
 
 .nav-item {
   padding: 5px 15px;
+  margin-left:30px;
 }
 
 .navbar-toggler {
@@ -653,21 +654,36 @@ textarea {
   color: white;
 }
 
+.floating-icon {
+  margin: 10px 10px;
+  font-size: 35px;
+  color: var(--darkest);
+  text-decoration: none;
+}
+
+.floating-icon:hover {
+  font-size: 40px;
+  /* background-color: var(--dark); */
+  color: var(--dark);
+}
+
 .social-icons {
   margin-top: 25px;
-  ;
   text-align: center;
 }
 
 .social-icon {
-  margin: 10px 25px;
+  margin: 10px 10px;
   font-size: 35px;
   color: var(--darkest);
+  text-decoration: none;
+  padding:10px;
 }
 
 .social-icon:hover {
-  font-size: 40px;
-  color: var(--dark);
+  /* font-size: 40px; */
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 /* On screens that are 992px or less */
