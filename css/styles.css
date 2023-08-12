@@ -686,6 +686,10 @@ textarea {
   color: var(--light);
 }
 
+.txt-left{
+  text-align: left;
+}
+
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
   .navbar {
