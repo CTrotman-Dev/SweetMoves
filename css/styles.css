@@ -487,6 +487,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   border-radius: 20px;
 }
 
+
 .btn-about{
   background-color: var(--darkest);
   color: var(--lightest);
@@ -499,8 +500,14 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .contact-list{
-  
   text-align: center;
+
+  background-color: rgba(255,255,255, 0.7);
+  text-align: center;
+  margin: 10px auto;
+  padding:10px;
+  /* position: fixed; */
+  border-radius: 20px;
 }
 .contact-list p{
 margin-top: 15px;
@@ -747,6 +754,10 @@ transition: max-height 0.2s ease-out;
 
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
+  /* .contact-list{
+
+    position:relative;
+  } */
   .navbar {
     font-size: 17px;
     padding: 10px 10px;
