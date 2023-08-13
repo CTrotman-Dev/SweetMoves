@@ -20,6 +20,7 @@
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-leaflet": "^4.0.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",

@@ -9,14 +9,12 @@ import CarouselComponent from "../components/CarouselComponent";
 import HeroTabbed from "../components/HeroTabbed";
 import WhyUs from "../components/WhyUs";
 
-
-
 const Home = () => {
     return (
         <div>
             {/* <HeroImage imgSrc="images/img4-lg2.jpg" logoSrc="images/new-logo-sm.jpg" /> */}
             {/* <HeroImage imgSrc="images/img9.jpg" logoSrc="images/new-logo-sm.jpg" /> */}
-            <HeroImageV2 imgSrc="images/img9v2-sm.jpg" logoSrc="images/new-logo-sm.jpg"/>
+            <HeroImageV2/>
             <WhyUs />
             <HeroTabbed />
             <CarouselComponent />

@@ -8,6 +8,17 @@ import Form from "../components/Form";
 import TitleBanner from "../components/TitleBanner";
 import SocialIconsDetailed from "../components/SocialIconsDetailed";
 
+import Image1 from "./../images/img1.jpg";
+import Image2 from "./../images/img2.jpg";
+import Image3 from "./../images/img3.jpg";
+import Image4 from "./../images/img4.jpg";
+import Image5 from "./../images/img5.jpg";
+import Image6 from "./../images/img6.jpg";
+import Image7 from "./../images/img7.jpg";
+import Image9 from "./../images/img9v2-sm.jpg";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Services = () => {
     return (
         <div>
@@ -46,13 +57,14 @@ const Services = () => {
                         </ul>
                 </div>
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img1.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image1} alt="Image Alt" />
+                    {/* <img src="images/img1.jpg" alt="hero-image" className="service-img"/> */}
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img2.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image2} alt="Image Alt" />
                 </div>
                 <div className="col-lg-6 m-0 p-0">
                     <TitleBanner text="House moves" />
@@ -66,12 +78,12 @@ const Services = () => {
                     <p className="service-details">We understand that moving office can be a daunting and disruptive task. That’s why we offer a fast and efficient service that minimizes the downtime and hassle for your business. We can move your office furniture, equipment, files, and documents safely and securely. We can also help you with packing and unpacking, furniture assembly, dismantling and reassembly of furniture, loading and unloading of vehicles, and clean-up.</p>
                 </div>
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img3.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image3} alt="Image Alt" />
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img4.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image4} alt="Image Alt" />
                 </div>
                 <div className="col-lg-6 m-0 p-0">
                     <TitleBanner text="Storage" />
@@ -84,12 +96,12 @@ const Services = () => {
                     <p className="service-details">Packing and unpacking can be one of the most tedious and time-consuming parts of moving. That’s why we offer a full or partial packing and unpacking service to make your life easier. We can supply all the necessary packing materials, such as boxes, tape, bubble wrap, and labels. We can also pack your items carefully and efficiently, ensuring that they are well-protected during transit. And we can unpack them for you at your new location, placing them where you want them.</p>
                 </div>
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img5.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image5} alt="Image Alt" />
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img6.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image6} alt="Image Alt" />
                 </div>
                 <div className="col-lg-6 m-0 p-0">
                     <TitleBanner text="Furniture assembly" />
@@ -102,12 +114,12 @@ const Services = () => {
                     <p className="service-details">Sometimes, furniture is too big or bulky to fit through doors or stairs. In that case, we can help you with dismantling and reassembly of furniture. We can take apart your furniture carefully and safely, making sure that all the parts are labeled and organized. And we can put them back together at your new location, restoring them to their original condition.</p>
                 </div>
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img7.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image7} alt="Image Alt" />
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img1.jpg" alt="hero-image" className="service-img"/>
+                <LazyLoadImage className="service-img" src={Image1} alt="Image Alt" />
                 </div>
                 <div className="col-lg-6 m-0 p-0">
                     <TitleBanner text="Loading and unloading of vehicles" />
@@ -120,7 +132,8 @@ const Services = () => {
                     <p className="service-details">Moving can leave behind a lot of mess and clutter. That’s why we offer a clean-up service to make your moving more pleasant. We can clean up your old or new location after moving, leaving it spotless and tidy. We can also dispose of any unwanted items or rubbish for you.</p>
                 </div>
                 <div className="col-lg-6 m-0 p-0">
-                    <img src="images/img9v2-sm.jpg" alt="hero-image" className="service-img"/>
+                    {/* <img src="images/img9v2-sm.jpg" alt="hero-image" className="service-img"/> */}
+                    <LazyLoadImage className="service-img" src={Image9} alt="Image Alt" />
                 </div>
             </div>
 

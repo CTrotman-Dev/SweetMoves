@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TitleBanner from "./TitleBanner";
+import Image from "./../images/img9v2-sm.jpg";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HeroImage = (props) => {
     return (
@@ -32,7 +35,7 @@ const HeroImage = (props) => {
                 </div>
             </div>
             <div className="col-lg-6 m-0 p-0">
-                <img src={props.imgSrc} alt="hero-image" className="hero-img" />
+                <LazyLoadImage className="hero-img" src={Image} alt="Hero Image Alt" />
             </div>
 
 
