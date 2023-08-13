@@ -8,7 +8,7 @@ const Clients = () => {
   return (
 
     <div className="row">
-    <TitleBanner text="Clients" />
+    <TitleBanner text="Reviews" />
       <div className="row fb-comments">
         <div className="col-lg-6">
         <FBPost height="200px" width="500px" url="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsue.johns.7374%2Fposts%2Fpfbid01MqMa7eRA5TLG85XfCYrKuPQemz89Wx3wuVDFrMf5EeDejDcQqRAtUMVC5wLnnXYl&show_text=true&width=500" />

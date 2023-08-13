@@ -45,6 +45,10 @@ h4 {
   margin: 0;
 }
 
+.invis{
+  visibility: hidden;
+}
+
 .mainContent {
   /* margin: 0 25px; */
   text-align: center;
@@ -111,6 +115,7 @@ nav {
 
 .nav-item {
   padding: 5px 15px;
+  margin-left:30px;
 }
 
 .navbar-toggler {
@@ -272,17 +277,24 @@ nav {
 }
 
 .hero-container{
-background-color: rgba(255,255,255,0.5);
+/* background-color: rgba(255,255,255,0.5);*/
+background-color: var(--lightest); 
+color: var(--darkest);
 border-radius: 25px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .hero-img {
-  /* height: 500px; */
-  max-width: 100%;
+
+  /* max-height: 80vh;
+  width: 100%;
   overflow: hidden;
-  border-radius: 10px;
-  /* margin-top: -75px; */
+  border-radius: 10px; */
+
+  
+  object-fit: cover;
+width: 100%;
+height: 500px;
 }
 
 .hero-text{
@@ -295,19 +307,28 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .why-us-container{
-  padding:25px 50px;
+  padding:25px 25px;
+  color:var(--dark);
+  margin:15px auto;
+  text-align: center;
 }
 .why-us-section{
   background-color: rgba(255,255,255,0.5);
 border-radius: 25px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  padding:15px 15px;
+  padding:15px 10px;
+  /* width:23%; */
+  /* margin:0 15px; */
+}
+
+.txt-lg{
+  font-size: 40px;
 }
 
 .img-carousel{
   /* max-height: 50vh; */
   width: 100%;
-  max-height:500px;
+  max-height:80vh;
   vertical-align: middle;
   align-items: center;
 }
@@ -473,10 +494,32 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   cursor: pointer;
 }
 
+.service-content{
+  text-align: left;  
+}
+
+.service-details{
+  color: var(--darkest);
+  font-size: 20px;
+  padding:25px;
+  text-align: left;
+}
+
+.service-list{
+  list-style: none;
+  margin:auto auto;
+}
+
+.service-img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
 .about-content,
 .contact-page {
   background-color: rgba(255,255,255, 0.7);
-  text-align: left;
+  text-align: center;
   margin: 10px auto;
   padding:10px;
   width:fit-content;
@@ -639,21 +682,92 @@ textarea {
   color: white;
 }
 
+.floating-icon {
+  margin: 10px 10px;
+  font-size: 35px;
+  color: var(--darkest);
+  text-decoration: none;
+}
+
+.floating-icon:hover {
+  font-size: 40px;
+  /* background-color: var(--dark); */
+  color: var(--dark);
+}
+
+.contact-list a{
+  text-decoration: none;
+  
+  
+}
+
+.SocialIconsDetailed{
+  max-width: 25vw;
+}
+
 .social-icons {
   margin-top: 25px;
-  ;
   text-align: center;
 }
 
 .social-icon {
-  margin: 10px 25px;
+  margin: 10px 10px;
   font-size: 35px;
   color: var(--darkest);
+  text-decoration: none;
+  padding:10px;
+  
 }
 
 .social-icon:hover {
-  font-size: 40px;
-  color: var(--dark);
+  /* font-size: 40px; */
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+
+.social-container{
+  display: flex;
+  /* vertical-align: middle;
+  text-align: left;*/
+  width: 100%; 
+}
+.social-icon2 {
+  /* margin: 10px 10px; */
+  font-size: 35px;
+  color: var(--darkest);
+  text-decoration: none;
+  padding:10px;
+  display: inline-flex;
+}
+
+.social-icon2:hover {
+  /* font-size: 40px; */
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.social-text {
+  margin: auto 10px;
+  font-size: 20px;
+  color: var(--darkest);
+  text-decoration: none;
+  padding:10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.social-text:hover {
+  /* font-size: 40px; */
+  background-color: var(--dark);
+  color: var(--light);
+  cursor: pointer;
+}
+
+.txt-left{
+  text-align: left;
+}
+.txt-right{
+  text-align: right;
 }
 
 /* On screens that are 992px or less */
@@ -805,5 +919,43 @@ textarea {
 
   .logo-img{
     max-width:50vw;
+  }
+
+  .social-icon {
+    margin: 10px 10px;
+    font-size: 25px;
+    color: var(--darkest);
+    text-decoration: none;
+    padding:5px;
+    
+  }
+  
+  .social-icon:hover {
+    /* font-size: 40px; */
+    background-color: var(--dark);
+    color: var(--light);
+  }
+
+  /* .contact-page{
+
+  } */
+
+  .SocialIconsDetailed{
+    max-width: 75vw;
+  }
+
+  .social-icon2 {
+    font-size: 25px;
+    text-decoration: none;
+    padding:5px;
+    
+  }
+   
+  .social-text {
+    font-size: 15px;   
+  }
+
+  .service-img{
+    height: 250px;
   }
 }

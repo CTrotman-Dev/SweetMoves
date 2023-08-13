@@ -27,25 +27,12 @@ const CarouselComponent = () => {
                 <img src="images/img7.jpg" />
             </div>
             {/* <div className="img-carousel">
-                <img src="images/van1.jpg" />
-                <p className="legend">Legend 2</p>
-            </div>
-            <div className="img-carousel">
-                <img src="images/van2.jpg" />
-                <p className="legend">Legend 3</p>
-            </div>
-            <div className="img-carousel">
-                <img src="images/move1.jpg" />
-                <p className="legend">Legend 3</p>
-            </div>
-            <div className="img-carousel">
-                <img src="images/move2.jpg" />
-                <p className="legend">Legend 3</p>
-            </div>
-            <div className="img-carousel">
-                <img src="images/move3.jpg" />
-                <p className="legend">Legend 3</p>
+                <img src="images/img8.jpg" />
             </div> */}
+            {/* <div className="img-carousel">
+                <img src="images/img9v2-sm.jpg" />
+            </div> */}
+
         </Carousel>
     );
 }

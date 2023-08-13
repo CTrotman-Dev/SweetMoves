@@ -5,9 +5,9 @@ import QuickLinkCard from "./QuickLinkCard";
 const QuickLinks = () => {
     return (
         <div className="quick-link-container row">
-            <QuickLinkCard text="See our Clients" link="/SweetMoves/clients" imgSrc="https://images.pexels.com/photos/7875939/pexels-photo-7875939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <QuickLinkCard text="Get in touch" link="/SweetMoves/contact" imgSrc="https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <QuickLinkCard text="Find out more" link="/SweetMoves/about" imgSrc="https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+            <QuickLinkCard text="See our Clients" link="/reviews" imgSrc="https://images.pexels.com/photos/7875939/pexels-photo-7875939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+            <QuickLinkCard text="Get in touch" link="/contact" imgSrc="https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+            <QuickLinkCard text="Find out more" link="/about" imgSrc="https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
         </div>
     );
 }

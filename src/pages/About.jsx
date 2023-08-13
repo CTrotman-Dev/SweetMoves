@@ -4,15 +4,16 @@ import HeroImage from "../components/HeroImage";
 import CarouselComponent from "../components/CarouselComponent";
 import TitleBanner from "../components/TitleBanner";
 import MyMap from "../components/MyMap";
+import SocialIconsDetailed from "../components/SocialIconsDetailed";
 
 const About = () => {
     return (
         <div className="row">
             <TitleBanner text="About" />
             <div className="col-md-6">
-            <div className="about-content">
-            <h1>SweetMoves: Making your move a sweet success</h1>
-                    {/* <h1>SweetMoves: Moving made sweet and easy, with a smile.</h1> */}
+                <div className="about-content txt-left">
+                    <h1>SweetMoves: Making your move a sweet success</h1>
+                    {/* <h1>SweetMoves: Moving made sweet and easy, with a smile.</h1>  */}
                     <p>
                         Welcome to SweetMoves, the Cardiff-based company that operates across the UK, offering home and office removals, storage, and packaging services.
                     </p>
@@ -32,65 +33,76 @@ const About = () => {
                         No matter what your moving needs are, SweetMoves has you covered. We are the sweet spot for all your moving needs. Contact us today to get a free quote and book your move with us.
                         You’ll love our sweet service and sweet prices. SweetMoves: The sweetest way to move your home or business.
                     </p>
+                    <div className="col-md-6">
+                        <h3>Our Values</h3>
+                        <p>
+                            At SweetMoves, we believe in the following values:
+                        </p>
+                        <ul>
+                            <li>
+                                Excellence: We strive to provide our customers with the highest quality of service.
+                            </li>
+                            <li>
+                                Integrity: We are honest and trustworthy, and we always put our customers first.
+                            </li>
+                            <li>
+                                Teamwork: We work together as a team to ensure that our customers are satisfied.
+                            </li>
+                            <li>
+                                Communication: We communicate effectively with our customers throughout the moving process.
+                            </li>
+                        </ul>
 
-                <h3>Our Values</h3>
-                <p>
-                    At SweetMoves, we believe in the following values:
-                </p>
-                <ul>
-                    <li>
-                        Excellence: We strive to provide our customers with the highest quality of service.
-                    </li>
-                    <li>
-                        Integrity: We are honest and trustworthy, and we always put our customers first.
-                    </li>
-                    <li>
-                        Teamwork: We work together as a team to ensure that our customers are satisfied.
-                    </li>
-                    <li>
-                        Communication: We communicate effectively with our customers throughout the moving process.
-                    </li>
-                </ul>
+                    </div>
+                    <div className="col-md-6">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li>
+                                House moves
+                            </li>
+                            <li>
+                                Office moves
+                            </li>
+                            <li>
+                                Storage
+                            </li>
+                            <li>
+                                Packing and unpacking
+                            </li>
+                            <li>
+                                Furniture assembly
+                            </li>
+                            <li>
+                                Dismantling and reassembly of furniture
+                            </li>
+                            <li>
+                                Loading and unloading of vehicles
+                            </li>
+                            <li>
+                                Clean-up
+                            </li>
+
+                        </ul>
+                        To learn more about our services or to schedule a free consultation, please contact us today.
+                    </div>
 
 
-                <h3>Our Services</h3>
-                <ul>
-                    <li>
-                        House moves
-                    </li>
-                    <li>
-                        Office moves
-                    </li>
-                    <li>
-                        Storage
-                    </li>
-                    <li>
-                        Packing and unpacking
-                    </li>
-                    <li>
-                        Furniture assembly
-                    </li>
-                    <li>
-                        Dismantling and reassembly of furniture
-                    </li>
-                    <li>
-                        Loading and unloading of vehicles
-                    </li>
-                    <li>
-                        Clean-up
-                    </li>
 
-                </ul>To learn more about our services or to schedule a free consultation, please contact us today.
-                <h3>
-                    <Link className="btn btn-lg btn-about" to={"/contact"}>
-                        CLICK HERE
-                    </Link>
+                    <h3>
+                        <Link className="btn btn-lg btn-about" to={"/contact"}>
+                            Contact Us
+                        </Link>
 
-                </h3>
+                    </h3>
                 </div>
             </div>
             <div className="col-md-6">
+                {/* <SocialIcons /> */}
+                <div className="contact-page">
+                    <SocialIconsDetailed />
+                </div>
                 <MyMap />
+
                 {/* <CarouselComponent /> */}
             </div>
         </div>

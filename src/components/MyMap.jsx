@@ -20,7 +20,7 @@ const MyMap = () => {
     const redOptions = { color: 'red' };
 
     return (
-        <MapContainer className="map" center={center} zoom={12} scrollWheelZoom={true}>
+        <MapContainer className="map mx-auto" center={center} zoom={12} scrollWheelZoom={true}>
                       <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -3,9 +3,10 @@ import React from "react";
 const HeroImage = (props) => {
     return (
         <div className="row hero-container">
-            <div className="col-md-6">
+            <div className="col-md-6 m-0 p-0">
+            <img className="w-100" src={props.logoSrc} alt="logo image" />
                 <div className="hero-text-container">
-
+                    
                     <h1>SweetMoves: Making your move a sweet success</h1>
                     {/* <h1>SweetMoves: Moving made sweet and easy, with a smile.</h1> */}
                     <p>
@@ -29,7 +30,7 @@ const HeroImage = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="col-md-6"><img src={props.imgSrc} alt="hero-image" className="hero-img" /></div>
+            <div className="col-md-6 m-0 p-0"><img src={props.imgSrc} alt="hero-image" className="hero-img" /></div>
 
 
         </div>

@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Clients from "./pages/Clients";
+import Services from "./pages/Services";
+import ScrollTop from './components/ScrollTop';
 
 class App extends Component {
 
@@ -15,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <ScrollTop />
         {/* <ParallaxProvider> */}
           <Header />
           <div className="mainContent">
@@ -24,10 +27,10 @@ class App extends Component {
               <Route path="/SweetMoves/contact" element={<Contact />} />
               <Route path="/SweetMoves/clients" element={<Clients />} /> */}
               <Route exact path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/clients" element={<Clients />} />
-              
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/reviews" element={<Clients />} />
+              <Route exact path='/services' element={<Services />} />
             </Routes>
           </div>
           

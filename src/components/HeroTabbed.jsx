@@ -62,14 +62,15 @@ const HeroTabbed = (props) => {
                         <div className="detail-tab">
                             <h1>Removals</h1>
                             <img src="images/img1.jpg" alt="hero image" />
+                            <p>At SweetMoves, we provide a range of services.</p>
                             <p>
-                                Do you need a hand moving home? Get in contact today.
+                                Do you need a hand moving home or Office? 
                             </p>
                             {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/contact"} >
                                 Click here
                             </Link> */}
-                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
-                                Click here
+                            <Link className="btn btn-lg btn-cta" to={"/services"} >
+                                View All Services
                             </Link>
                         </div>
                     }
@@ -78,13 +79,14 @@ const HeroTabbed = (props) => {
                             <h1>SweetMoves</h1>
                             <img src="images/img2.jpg" alt="hero image" />
                             <p>
-                                We are a family run removals company. Contact us today.
+                                We are a Cardiff-based company that operates across the UK</p>
+                                <p>Offering home and office removals, storage, and packaging services.
                             </p>
                             {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/about"} >
                                 Click here
                             </Link> */}
                             <Link className="btn btn-lg btn-cta" to={"/about"} >
-                                Click here
+                                Learn more
                             </Link>
                         </div>
                     }
@@ -94,13 +96,13 @@ const HeroTabbed = (props) => {
                             <FBPost height="200px" width="500px" url="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsue.johns.7374%2Fposts%2Fpfbid01MqMa7eRA5TLG85XfCYrKuPQemz89Wx3wuVDFrMf5EeDejDcQqRAtUMVC5wLnnXYl&show_text=true&width=500" />
         <FBPost height="200px" width="500px" url="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgeniewkcss%2Fposts%2Fpfbid0qpuLQ2AREGS8iCrB9qxrZTjFTBoS4WKJqrv9CMHfHaVRDq7u9c5fMgU2WQRRZZral&show_text=true&width=500" />
                             <p>
-                                Looking at all of our reviews.
+                                Take a looking at more of our reviews.
                             </p>
                             {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/clients"} >
                                 Click here
                             </Link> */}
-                            <Link className="btn btn-lg btn-cta" to={"/clients"} >
-                                Click here
+                            <Link className="btn btn-lg btn-cta" to={"/reviews"} >
+                                See All Reviews
                             </Link>
                         </div>
                     }
