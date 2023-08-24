@@ -328,6 +328,9 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 .txt-lg{
   font-size: 40px;
 }
+.pageclip-form__success{
+  font-size:25px;
+}
 
 .img-carousel{
   /* max-height: 50vh; */
@@ -690,7 +693,8 @@ textarea {
 }
 
 .SocialIconsDetailed{
-  max-width: 25vw;
+  /* max-width: 25vw; */
+  max-width: 99%;
 }
 
 .social-icons {
