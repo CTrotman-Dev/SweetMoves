@@ -1,7 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.8eb20739.css",
-    "main.js": "/static/js/main.9d52851b.js",
+    "main.js": "/static/js/main.810317a7.js",
+    "static/media/new9.jpg": "/static/media/new9.0d74ded7da0ed4e91c9f.jpg",
+    "static/media/new2.jpg": "/static/media/new2.fb37f9fe0b18b34c9870.jpg",
+    "static/media/new1.jpg": "/static/media/new1.fdcfe527a217e2ba8f17.jpg",
+    "static/media/new3.jpg": "/static/media/new3.d2df03f7a0104a1fd1e0.jpg",
+    "static/media/new5.jpg": "/static/media/new5.600cf35588d32e861e1e.jpg",
     "static/media/img9v2-sm.jpg": "/static/media/img9v2-sm.28e6694043167a3e0625.jpg",
     "static/media/img2.jpg": "/static/media/img2.81d37f26f8131633678b.jpg",
     "static/media/img6.jpg": "/static/media/img6.3c8badb1184b893627e6.jpg",
@@ -11,24 +16,18 @@
     "static/media/img7.jpg": "/static/media/img7.e4e67ab6d0958f936b11.jpg",
     "static/media/img5.jpg": "/static/media/img5.0d8ec97a476693b877c4.jpg",
     "static/media/img4.jpg": "/static/media/img4.ba06c7af6ef7c1ddc6f8.jpg",
-    "static/media/img15.jpg": "/static/media/img15.fc4e97a4ca00eb44f17e.jpg",
-    "static/media/img11.jpg": "/static/media/img11.81856217af95b0cdfd86.jpg",
-    "static/media/img14.jpg": "/static/media/img14.c2823772bf19734caf8b.jpg",
-    "static/media/img13.jpg": "/static/media/img13.433caa752748baa0b23a.jpg",
-    "static/media/img12.jpg": "/static/media/img12.e5e0be46b29d0ea016d9.jpg",
     "static/media/img17.jpg": "/static/media/img17.30dd67eba053bf3aa8b3.jpg",
     "static/media/new-logo-sm.jpg": "/static/media/new-logo-sm.6c4d8ecfd14ae3125717.jpg",
     "static/media/img19.jpg": "/static/media/img19.60ac90eab95bbae10b62.jpg",
-    "static/media/img10.jpg": "/static/media/img10.2e0460f2e2f5b935a484.jpg",
+    "static/media/new6.jpg": "/static/media/new6.8c6da63de3e202e9b784.jpg",
     "static/media/img18.jpg": "/static/media/img18.8db301a490a42bc0c102.jpg",
-    "static/media/img8.jpg": "/static/media/img8.1cad68a708e09a67c65d.jpg",
     "static/media/img-nobg.jpg": "/static/media/img-nobg.3727f97a95a0c01071bc.jpg",
     "index.html": "/index.html",
     "main.8eb20739.css.map": "/static/css/main.8eb20739.css.map",
-    "main.9d52851b.js.map": "/static/js/main.9d52851b.js.map"
+    "main.810317a7.js.map": "/static/js/main.810317a7.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb20739.css",
-    "static/js/main.9d52851b.js"
+    "static/js/main.810317a7.js"
   ]
 }
