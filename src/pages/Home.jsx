@@ -1,28 +1,32 @@
 import React from "react";
-
-
-import HeroImage from "../components/HeroImage";
 import HeroImageV2 from "../components/HeroImageV2";
-import QuickLinks from "../components/QuickLinks";
-import AnimateInOut from "../components/Animation/AnimateInOut";
 import CarouselComponent from "../components/CarouselComponent";
 import HeroTabbed from "../components/HeroTabbed";
 import WhyUs from "../components/WhyUs";
+import Seo from "../components/Seo";
+import ParallaxImg from "../components/ParallaxImg";
 
 const Home = () => {
+    const metaData = [
+        {
+            name: "keywords",
+            content: "home, services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+        },
+    ];
     return (
         <div>
-            {/* <HeroImage imgSrc="images/img4-lg2.jpg" logoSrc="images/new-logo-sm.jpg" /> */}
-            {/* <HeroImage imgSrc="images/img9.jpg" logoSrc="images/new-logo-sm.jpg" /> */}
-            <HeroImageV2/>
+            <Seo
+                title="SweetMoves Homepage"
+                description="The Home page for SweetMoves which lists and explains all services provided."
+                meta={metaData} />
+                
+                {/* <ParallaxImg /> */}
+               
+                
+            <HeroImageV2 />
             <WhyUs />
             <HeroTabbed />
             <CarouselComponent />
-
-            {/* <HeroImage imgSrc="/logo.png" /> */}
-            {/* <AnimateInOut visible="true" delay="0" in="animate__fadeInUp" out="">
-                <QuickLinks />
-            </AnimateInOut> */}
         </div>
     );
 }

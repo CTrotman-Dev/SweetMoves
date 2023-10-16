@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import FBPost from "./FBPost"
 
-import Image1 from "./../images/img1.jpg";
-import Image2 from "./../images/img2.jpg";
+import Image1 from "./../images/new3.jpg";
+import Image2 from "./../images/new2.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HeroTabbed = (props) => {
@@ -66,7 +66,7 @@ const HeroTabbed = (props) => {
                         <div className="detail-tab">
                             <h1>Removals</h1>
                             <LazyLoadImage src={Image1} alt="Image Alt" />
-                            <p>At SweetMoves, we provide a range of services.</p>
+                            <p>At SweetMoves, we provide a range of Removal services.</p>
                             <p>
                                 Do you need a hand moving home or Office? 
                             </p>
@@ -83,7 +83,7 @@ const HeroTabbed = (props) => {
                             <h1>SweetMoves</h1>
                             <LazyLoadImage src={Image2} alt="Image Alt" />
                             <p>
-                                We are a Cardiff-based company that operates across the UK</p>
+                                We are a Cardiff based Removal company that operates across the UK.</p>
                                 <p>Offering home and office removals, storage, and packaging services.
                             </p>
                             {/* <Link className="btn btn-lg btn-cta" to={"/SweetMoves/about"} >

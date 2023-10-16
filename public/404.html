@@ -11,12 +11,12 @@
       const currentUrl = window.location.href;
       var urlObj = new URL(currentUrl);
       // // Create a new URL with the hash symbol inserted after the domain.
-      // //const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
+      // //const newUrl = `example.com/#${urlObj.pathname}`;
       // console.log("Path:" + urlObj.pathname);
       // // Redirect the user to the new URL.
       // console.log("Hash:" + urlObj.hash + " - " + urlObj.hash.length);
 
-      console.log("new url" + window.location.pathname);
+      //console.log("new url" + window.location.pathname);
       window.location.assign("/#" + window.location.pathname);
       if (urlObj.hash.length <= 0) {
       }

@@ -1,38 +1,52 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeroImage from "../components/HeroImage";
-import CarouselComponent from "../components/CarouselComponent";
 import TitleBanner from "../components/TitleBanner";
 import MyMap from "../components/MyMap";
 import SocialIconsDetailed from "../components/SocialIconsDetailed";
+import Seo from "../components/Seo";
 
 const About = () => {
+    const metaData = [
+        {
+          name: "keywords",
+          content: "about,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+        },
+      ];
     return (
         <div className="row">
-            <TitleBanner text="About" />
+                    <Seo
+                title="SweetMoves About Us"
+                description="The About page for SweetMoves which lists and explains all services provided."
+                meta={metaData} />
+            <TitleBanner text="About Us" />
             <div className="col-md-6">
                 <div className="about-content txt-left">
-                    <h1>SweetMoves: Making your move a sweet success</h1>
+                    {/* <h1>SweetMoves: Making your move a sweet success</h1> */}
                     {/* <h1>SweetMoves: Moving made sweet and easy, with a smile.</h1>  */}
                     <p>
-                        Welcome to SweetMoves, the Cardiff-based company that operates across the UK, offering home and office removals, storage, and packaging services.
+                    Welcome to SweetMoves, the Cardiff based Removal company that operates across the UK, offering home and office removals, storage, and packaging services.
                     </p>
                     <p>
-                        Whether you are moving across the street or across the country, we are here to make your move as sweet as possible. We have over 3 years of experience in the moving industry, and we pride ourselves on our professionalism, reliability, and affordability.
+                    Whether you are moving across the street or across the country, we are here to make your move as sweet as possible. We have several years of experience in the moving industry, and we pride ourselves on our professionalism, reliability, and affordability.
                     </p>
                     <p>
-                        We have a fleet of modern vehicles, a team of trained and friendly staff, and a range of flexible options to suit your needs and budget. We also provide free quotes, insurance cover, and customer support throughout your move. At SweetMoves, we understand that moving can be stressful and time-consuming, but we are here to take care of everything for you.
+                        We have several modern vehicles, a team of trained and friendly staff, and a range of flexible options to suit your needs and budget. We also provide free quotes, insurance cover, and customer support throughout your move. At SweetMoves, we understand that moving can be stressful and time-consuming, but we are here to take care of everything for you.
                     </p>
                     <p>
-                        From packing your belongings with care and efficiency, to transporting them safely and securely, to unpacking and setting them up at your new location, we will handle every aspect of your move with sweetness and speed. You can trust us with your stuff, because we treat it like our own. We also offer storage solutions for those who need some extra space or time before or after their move.
+                        From packing your belongings with care and efficiency, to transporting them safely and securely, to unpacking and setting them up at your new location, we will handle every aspect of your move. You can trust us with your stuff, because we treat it like our own. We also offer storage solutions for those who need some extra space or time before or after their move.
                     </p>
                     <p>
-                        We have secure and climate-controlled facilities where you can store your items for as long as you need. We also offer packaging materials and services for those who want to pack their own things or need some help with it. We have boxes, bubble wrap, tape, labels, and everything else you might need to pack your items properly. We can also provide professional packing assistance if you prefer to leave it to the experts.
+                    We offer secure and affordable storage units in various sizes to suit your needs. You can access your storage unit anytime you want, and we can also arrange delivery and collection of your items if needed. We also offer packaging materials and services for those who want to pack their own things or need some help with it. We have boxes, bubble wrap, tape, labels, and everything else you might need to pack your items properly. We can also provide professional packing assistance if you prefer to leave it to the experts.
                     </p>
                     <p>
-                        No matter what your moving needs are, SweetMoves has you covered. We are the sweet spot for all your moving needs. Contact us today to get a free quote and book your move with us.
-                        You’ll love our sweet service and sweet prices. SweetMoves: The sweetest way to move your home or business.
+                    No matter what your moving needs are, SweetMoves has you covered. We are the sweet spot for all your moving needs. Contact us today to get a free quote and book your move with us.
                     </p>
+                    <h3>
+                        <Link className="btn btn-lg btn-about" to={"/contact"}>
+                            Get a Free Quote!
+                        </Link>
+
+                    </h3>
                     <div className="col-md-6">
                         <h3>Our Values</h3>
                         <p>
@@ -89,8 +103,8 @@ const About = () => {
 
 
                     <h3>
-                        <Link className="btn btn-lg btn-about" to={"/contact"}>
-                            Contact Us
+                        <Link className="btn btn-lg btn-about" to={"/services"}>
+                            See our Services
                         </Link>
 
                     </h3>

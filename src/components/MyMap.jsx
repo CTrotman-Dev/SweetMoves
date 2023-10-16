@@ -1,22 +1,10 @@
 import React from "react";
 
-import { MapContainer, TileLayer, useMap, Marker, Popup, LayerGroup, Circle, FeatureGroup, Rectangle } from 'react-leaflet';
+import { MapContainer, TileLayer, Popup, FeatureGroup} from 'react-leaflet';
 
 const MyMap = () => {
-    // var map = L.map('map').setView([51.505, -0.09], 13);
-    // console.log(map);
     const center = [51.513499, -3.15];
-    const rectangle1 = [
-        [51.501549, -3.138890],
-        [51.538341, -3.057490]
-    ];
-    const rectangle2 = [
-        [51.501549, -3.138890],
-        [51.547914, -3.229137]
-    ];
 
-    const blueOptions = { color: '#145DA0' };
-    const yellowOptions = { color: '#d80000' };
     const redOptions = { color: 'red' };
 
     return (

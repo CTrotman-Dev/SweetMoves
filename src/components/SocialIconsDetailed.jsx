@@ -38,10 +38,10 @@ const SocialIconsDetailed = () => {
                 </a>
             </div>
             <div className="social-container">
-                <a href="https://www.facebook.com/T.SRemovals0/">
+                <a href="https://www.facebook.com/sweetmoves22/">
                     <FontAwesomeIcon icon={faFacebook} className="social-icon2" />
                 </a>
-                <a href="https://www.facebook.com/T.SRemovals0/">
+                <a href="https://www.facebook.com/sweetmoves22/">
                     <label className="social-text">SweetMoves</label>
                 </a>
             </div>

@@ -3,11 +3,7 @@ import React from "react";
 import SocialIcons from "./SocialIcons";
 import FloatingWhatsappIcon from "./FloatingWhatsappIcon";
 
-import { Link } from "react-router-dom";
-
 const Footer = () => {
-    const year = new Date().getFullYear();
-
     function Copyright() {
         return (
             <div>

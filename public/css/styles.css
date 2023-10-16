@@ -285,16 +285,10 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .hero-img {
-
-  /* max-height: 80vh;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px; */
-
-  
   object-fit: cover;
 width: 100%;
-height: 500px;
+height: 100%;
+max-height:500px;
 }
 
 .hero-text{
@@ -317,12 +311,25 @@ height: 500px;
 border-radius: 25px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   padding:15px 10px;
+  margin: 10px 10px;
+  height:96%;
   /* width:23%; */
   /* margin:0 15px; */
 }
 
+.services-section{
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding:15px 10px;
+    margin: 10px 10px;
+}
+
 .txt-lg{
   font-size: 40px;
+}
+.pageclip-form__success{
+  font-size:25px;
 }
 
 .img-carousel{
@@ -331,6 +338,21 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   max-height:80vh;
   vertical-align: middle;
   align-items: center;
+  margin:auto;
+}
+
+.img-carousel img{
+  object-fit: cover;
+  width: 100%;
+  margin:auto;
+  /* max-height: 50vh;
+
+  margin: auto; */
+/* position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%); */
 }
 
 .card {
@@ -401,45 +423,6 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   color: var(--dark-font);
 }
 
-/*
-.container {
-  width: 100%;
-  height: auto;
-  min-height: 500px;
-  max-width: 500px;
-  min-width: 250px;
-  background: #f1f5f8;
-  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
-  background-size: 25px 25px;
-  border-radius: 20px;
-  box-shadow: 4px 3px 7px 2px #00000040;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
- .heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-.heading h1 {
-  padding: 0.2rem 1.2rem;
-  background-color: #fdcb6e;
-  font-size: 1.5rem;
-} */
-
-
-
-/* li {
-  font-family: "Architects Daughter", cursive;
-  font-size: 25px;;
-  text-align: left;
-  position: relative;
-  padding: 0.5rem;
-} */
-
-
 .strike-text {
   text-decoration: line-through;
   color: #00b609;
@@ -506,8 +489,9 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .service-list{
-  list-style: none;
+  /* list-style: none; */
   margin:auto auto;
+  padding-left:75px;
 }
 
 .service-img{
@@ -526,6 +510,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   border-radius: 20px;
 }
 
+
 .btn-about{
   background-color: var(--darkest);
   color: var(--lightest);
@@ -538,8 +523,14 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .contact-list{
-  
   text-align: center;
+
+  background-color: rgba(255,255,255, 0.7);
+  text-align: center;
+  margin: 10px auto;
+  padding:10px;
+  /* position: fixed; */
+  border-radius: 20px;
 }
 .contact-list p{
 margin-top: 15px;
@@ -702,7 +693,8 @@ textarea {
 }
 
 .SocialIconsDetailed{
-  max-width: 25vw;
+  /* max-width: 25vw; */
+  max-width: 99%;
 }
 
 .social-icons {
@@ -770,8 +762,26 @@ textarea {
   text-align: right;
 }
 
+.show{
+opacity: 1;
+max-height:100%;
+transition: max-height 0.2s ease-in;
+transition: opacity 0.4s ease-in;
+}
+
+.hide{
+opacity: 0;
+transition: opacity 0.4s ease-out;
+max-height:0;
+transition: max-height 0.2s ease-out;
+}
+
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
+  /* .contact-list{
+
+    position:relative;
+  } */
   .navbar {
     font-size: 17px;
     padding: 10px 10px;
@@ -904,6 +914,7 @@ textarea {
     left: -20px; */
     max-width: 60%;
   }
+
 
 }
 

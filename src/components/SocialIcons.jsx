@@ -11,7 +11,7 @@ const SocialIcons = () => {
 
     return (
         <div className="social-icons">
-            <a href="https://www.facebook.com/T.SRemovals0/">
+            <a href="https://www.facebook.com/sweetmoves22/">
                 <FontAwesomeIcon className="social-icon" icon={faFacebook} />
             </a>
             <a href="https://wa.me/+447701360672">

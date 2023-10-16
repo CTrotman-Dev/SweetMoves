@@ -1,38 +1,41 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
-import Form from "../components/Form";
+import ContactForm from "../components/ContactForm";
 import TitleBanner from "../components/TitleBanner";
 import SocialIconsDetailed from "../components/SocialIconsDetailed";
+import Seo from "../components/Seo";
 
 const Contact = () => {
+    const metaData = [
+        {
+            name: "keywords",
+            content: "contact,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+        },
+    ];
     return (
         <div>
+            <Seo
+                title="SweetMoves Contact"
+                description="The Contact page for SweetMoves which lists and explains all services provided."
+                meta={metaData} />
             <TitleBanner text="Contact" />
 
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-lg-6">
                     <div className="contact-page">
-                        <div className="row contact-list">
-                            <SocialIconsDetailed />
+                        <div className="SocialIconsDetailed">
+                            <div className="row">
+                                <SocialIconsDetailed />
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
-                <div className="col-sm-6">
+
+                <div className="col-lg-6">
                     <div className="contact-page">
-                        <p>
-                            Please use the form to send an email (NOTE: this will open default email app.)
-                        </p>
-                        <Form />
+                        <ContactForm />
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 }
