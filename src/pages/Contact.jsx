@@ -8,7 +8,7 @@ const Contact = () => {
     const metaData = [
         {
             name: "keywords",
-            content: "contact,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+            content: "contact,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning, man and van, van",
         },
     ];
     return (

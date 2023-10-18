@@ -1,5 +1,5 @@
 import React from "react";
-import Seo from "../components/SEO";
+import Seo from "../components/Seo";
 import TitleBanner from "../components/TitleBanner";
 
 const NotFound = () => {

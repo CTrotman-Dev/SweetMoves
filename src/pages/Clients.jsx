@@ -8,7 +8,7 @@ const Clients = () => {
   const metaData = [
     {
       name: "keywords",
-      content: "reviews,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+      content: "reviews,services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning, man and van, van",
     },
   ];
   return (

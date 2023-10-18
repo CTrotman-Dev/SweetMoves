@@ -10,7 +10,7 @@ const Home = () => {
     const metaData = [
         {
             name: "keywords",
-            content: "home, services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning",
+            content: "home, services, removals, home, office, packing, unpacking, assembly,Dismantling, reassembly, furniture, loading, un-loading, cleaning, man and van, van",
         },
     ];
     return (
