@@ -1,10 +1,10 @@
-<!doctype html>
+<!-- <!doctype html>
 <title>Redirecting to https://sweetmoves.info/</title>
 <meta http-equiv="refresh" content="0; URL=https://sweetmoves.info/">
-<link rel="canonical" href="https://sweetmoves.info/">
+<link rel="canonical" href="https://sweetmoves.info/"> -->
 
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,12 @@
       // window.location.assign("/#" + window.location.pathname);
       // if (urlObj.hash.length <= 0) {
       // }
-
+// Get the current URL
+var url = window.location.href;
+  // Remove the base URL
+  var path = url.replace("https://sweetmoves.info/", "");
+  // Redirect to index.html with the query parameter
+  window.location.replace("https://sweetmoves.info/index.html?redirect=" + path);
     </script>
     <title>404 Not Found</title>
   </head>
@@ -31,4 +36,4 @@
       If you are still having trouble, please contact the site administrator.
     </p>
   </body>
-</html> -->
+</html> 
