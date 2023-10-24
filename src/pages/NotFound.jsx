@@ -1,6 +1,8 @@
 import React from "react";
 import Seo from "../components/Seo";
 import TitleBanner from "../components/TitleBanner";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const NotFound = () => {
   const metaData = [
@@ -16,8 +18,17 @@ const NotFound = () => {
         description="The page you are looking for could not be found."
         meta={metaData}
       />
-      <TitleBanner text="Page Not Found" />
-      <p>The page you are looking for could not be found.</p>
+
+      <Header />
+      <div className="mainContent">
+
+        <TitleBanner text="Page Not Found" />
+        <div className="m-5">
+          <p>The page you are looking for could not be found.</p>
+        </div>
+      </div>
+
+      <Footer />
     </div>
   );
 };
