@@ -428,7 +428,14 @@ transform: translate(-50%, -50%); */
   color: #00b609;
 }
 
-
+.fb-post-container{
+  width:fit-content;
+}
+/* 
+.fb-post{
+  min-height:100%!important;
+  overflow: visible;
+} */
 
 .row-container {
   color: var(--darkest);
